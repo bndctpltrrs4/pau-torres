@@ -15,6 +15,9 @@
     <!-- external CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+
     <title>PAU.</title>
     <link rel="icon" href="https://img.icons8.com/fluency/48/000000/pandora.png">
   </head>
@@ -22,143 +25,213 @@
   <body>
     
     <!-- navbar -->
-    <nav class="nav p-3 sticky-top" id="mynavbar">
-      <a href="#" class="navbar-brand">Pau.</a>
-      <a href="#" class="nav-link">About Me</a>
-      <a href="#" class="nav-link">Educational Background</a>
-      <a href="#" class="nav-link">Work Experience</a>
-      <a href="#" class="nav-link">Skills</a>
-      <a href="#" class="nav-link">Contact Me</a>
-    </nav>
+    <div class="container-fluid d-flex justify-content-center p-3 sticky-top" id="myNavBar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="#myMain" class="navbar-brand">Pau.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- home section -->
-    <div class="container-fluid d-flex justify-content-center" id="mainsec">
-      <div class="float-left w-50" id="greetings">
-        <h1>Pau is the name,</h1> 
-        <h1>Web Development is the game! ;)</h1>
-      </div>
-      <div class="w-50 d-flex justify-content-center float-right">
-        <img src="./assets/images/pau.jpg" alt="image unavailable" class="img-fluid img-thumbnail rounded-circle w-75">
-      </div> 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="#aboutMe" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skillz" class="nav-link">Skills/Tools</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contactMe" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
-    <!-- about me section -->
-    <div class="container-fluid d-block" id="aboutme">
-      <div class="container-fluid pt-5">
-        <h2>ABOUT ME</h2> 
+    <!-- main section -->
+    <div class="container p-5" id="myMain">
+      <div class="row">
+
+        <div class="col d-flex justify-content-center p-5">
+          <div class="p-5 m-5">
+            <h1 class="text-right"><span>Pau</span> is the name, <span>WebDev</span> is the game.</h1>
+          </div>
+        </div>
+
+        <div class="col d-flex justify-content-center">
+          <img src="./assets/images/pau2.png" alt="image not available" class="img-fluid rounded-circle">
+        </div>
+        
       </div>
-      <div class="container-fluid pt-5 pl-5">
-        <h3>Hi!</h3>
-      </div>
-      <div class="container-fluid pt-3 pl-5">
-        <h4>I'm <span>Benedict Paulo C. Torres</span> but just <span>Pau</span> will do.</h4>
-      </div>
-      <div class="container-fluid pt-3 pl-5">
-        <h4>I'm a half introvert, half extrovert person who like to live happy and exciting life. Although I was a graduate college student of an "IT-related" course last 2014, it was only around 2016 that I realized that I want to be a web developer. My other interests aside from learning web development is to play basketball and binge-watch series or movies in Netflix.</h4>
-      </div>
-      <div class="container-fluid pt-3 pl-5">
-        <h4>My goal is to become the best web developer there is.</h4>
-      </div>
+    </div>
       
-    </div>
+    <!-- about me section -->
+    <div class="container mt-5 mb-5 p-5 border" id="aboutMe">
 
-    <!-- education background section -->
-    <div class="container-fluid" id="educbg">
-      <div class="container-fluid pt-5">
-        <h2>EDUCATIONAL BACKGROUND</h2>
+      <div class="container">
+        <h1>ABOUT ME</h1> 
       </div>
-    </div>
 
-    <!-- work experience section -->
-    <div class="container-fluid" id="workexp">
-      <div class="container-fluid pt-5">
-        <h2>WORK EXPERIENCE</h2>
+      <div class="container d-flex flex-column p-5">
+        <h6>I'm <span>Benedict Paulo C. Torres</span> but just <span>Pau</span> will do.</h6>
+        <h6>I'm a half introvert, half extrovert person who like to live happy and exciting life. Although I was a graduate college student of an "IT-related" course last 2014, it was only around 2016 that I realized that I want to be a web developer. My other interests aside from learning web development is to play basketball and binge-watch series or movies in Netflix.</h6>
+        <h6>My goal is to become the best web developer there is.</h6>
       </div>
+
+      <div class="container d-flex justify-content-center">
+        <div class="container text-wrap">
+          <h4>Educational Background</h4>
+            <ul>
+              <li>University of Santo Tomas - BS Civil Engineering (2008-2010)</li>
+              <li>De La Salle - College of Saint Benilde - BS Business Administration Major in Computer Applications (2010-2014)</li>
+            </ul>
+        </div>
+        <div class="container text-wrap">
+          <h4>Work Experience</h4>
+            <ul>
+              <li>OLX Philippines - Product Manager (2014 - 2017)</li>
+              <li>RareJob Philippines - Business Analyst (2017 - Present)</li>
+            </ul>
+        </div>
+      </div>
+
     </div>
 
     <!-- skills section -->
-    <div class="container-fluid" id="skillz">
-      <div class="container-fluid pt-5">
-        <h2>SKILLS</h2>
+    <div class="container my-5 p-5 border" id="skillz">
+
+      <div class="container">
+        <h1>SKILLS</h1> 
       </div>
 
-      
-      <div class="d-flex flex-wrap justify-content-center">
+      <div class="container d-flex justify-content-center">
+        
+      </div>
+      <div class="container d-flex flex-wrap justify-content-center p-5">
         <div>
-          <img src="./assets/images/skills1.png" alt="image unavailable" class="w-80">
-          <h6>skills1.png</h6>
+          <img src="./assets/images/skills1.png" alt="image unavailable" class="img-fluid">
+          <h6 class="text-center">Git</h6>
           </img>
         </div>
         <div>
-          <img src="./assets/images/skills2.png" alt="image unavailable" class="w-80">
-          <h6>skills2.png</h6>
+          <img src="./assets/images/skills2.png" alt="image unavailable" class="img-fluid">
+          <h6 class="text-center">Gitlab CI/CD</h6>
           </img>
         </div>
         <div>
-          <img src="./assets/images/skills3.png" alt="image unavailable" class="w-80">
-          <h6>skills3.png</h6>
+          <img src="./assets/images/skills3.png" alt="image unavailable" class="img-fluid">
+          <h6 class="text-center">Sublime Text 3</h6>
           </img>
         </div>
         <div>
-          <img src="./assets/images/skills4.png" alt="image unavailable" class="w-80">
-          <h6>skills4.png</h6>
+          <img src="./assets/images/skills4.png" alt="image unavailable" class="img-fluid">
+          <h6 class="text-center">HTML5</h6>
           </img>
         </div>
         <div>
-          <img src="./assets/images/skills5.png" alt="image unavailable" class="w-80">
-          <h6>skills5.png</h6>
+          <img src="./assets/images/skills5.png" alt="image unavailable" class="img-fluid">
+          <h6 class="text-center">CSS3</h6>
           </img>
         </div>
         <div>
-          <img src="./assets/images/skills6.png" alt="image unavailable" class="w-80">
-          <h6>skills6.png</h6>
+          <img src="./assets/images/skills6.png" alt="image unavailable" class="img-fluid">
+          <h6 class="text-center">Bootstrap</h6>
           </img>
         </div>
         <div>
           <img src="./assets/images/skills7.png" alt="image unavailable" class="w-80">
-          <h6>skills7.png</h6>
+          <h6 class="text-center">Javascript</h6>
           </img>
         </div>
         <div>
           <img src="./assets/images/skills8.png" alt="image unavailable" class="w-80">
-          <h6>skills8.png</h6>
+          <h6 class="text-center">ExpressJS</h6>
           </img>
         </div>
         <div>
           <img src="./assets/images/skills9.png" alt="image unavailable" class="w-80">
-          <h6>skills9.png</h6>
+          <h6 class="text-center">React</h6>
           </img>
         </div>
         <div>
           <img src="./assets/images/skills10.png" alt="image unavailable" class="w-80">
-          <h6>skills10.png</h6>
+          <h6 class="text-center">Node</h6>
           </img>
         </div>
         <div>
           <img src="./assets/images/skills11.png" alt="image unavailable" class="w-80">
-          <h6>skills11.png</h6>
+          <h6 class="text-center">MongoDB</h6>
           </img>
         </div>
         <div>
           <img src="./assets/images/skills12.png" alt="image unavailable" class="w-80">
-          <h6>skills12.png</h6>
+          <h6 class="text-center">Postman</h6>
           </img>
         </div>
         <div>
           <img src="./assets/images/skills13.png" alt="image unavailable" class="w-80">
-          <h6>skills13.png</h6>
+          <h6 class="text-center">Heroku</h6>
           </img>
         </div>
         <div>
           <img src="./assets/images/skills14.png" alt="image unavailable" class="w-80">
-          <h6>skills14.png</h6>
+          <h6 class="text-center">Rest</h6>
           </img>
         </div>
       </div>
+
+    </div>
+
+    <!-- contact form section -->
+
+    <div class="container p-5" id="contactMe">
+
+        <div class="container">
+          <h1>CONTACT ME</h1>
+        </div>
+
+        <div class="p-5">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Place Your Full Name Here">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Place Your Email Address Here">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" class="form-control" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="form-group d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary mt-5">Submit</button>
+          </div>
+        </div> 
+
     </div>
 
     <!-- footer section -->
-    <div class="container-center-fluid">
+    <div class="container d-flex flex-column">
+      <div class="d-flex justify-content-center">
+        <div>
+          <a href="#">
+            <img src="https://img.icons8.com/ultraviolet/40/000000/linkedin-circled--v3.png"/>
+          </a>
+        </div>
+
+        <div>
+          <a href="#">
+            <img src="https://img.icons8.com/ultraviolet/40/000000/gmail--v2.png"/>
+          </a>
+        </div>
+      </div>
+
+      <div class="container-fluid text-center mb-3 mt-3">
+        &copy; 2021 Benedict Paulo Torres
+      </div>
       
     </div>
     
