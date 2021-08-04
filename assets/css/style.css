@@ -3,20 +3,33 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 body {
 	background-image: url("");
 	height: 100%;
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: repeat;
+	background-size: contain;
 }
+
+/*main section*/
+
 
 /*navbar section*/
 #myNavBar {
 	background-color: white;
+	opacity: 0.9;
 }
 
 /*main section*/
 #myMain span{
+	color: #477afc;
+}
+
+/*about me section*/
+#aboutMe span{
 	color: #477afc;
 }
