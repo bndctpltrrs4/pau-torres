@@ -25,23 +25,29 @@
   <body>
     
     <!-- navbar -->
-    <div class="container-fluid d-flex justify-content-center p-3 sticky-top" id="myNavBar">
+    <div class="container-fluid p-3 sticky-top" id="myNavBar">
       <nav class="navbar navbar-expand-lg navbar-light">
-        <a href="#myMain" class="navbar-brand">Pau.</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a href="#myMain" class="navbar-brand">P.</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a href="#aboutMe" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#eduWork" class="nav-link">Education & Work</a>
             </li>
             <li class="nav-item">
               <a href="#skillz" class="nav-link">Skills/Tools</a>
             </li>
             <li class="nav-item">
-              <a href="#contactMe" class="nav-link">Contact</a>
+              <a href="#myProjects" class="nav-link">My Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contactMe" class="nav-link">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -49,7 +55,7 @@
     </div>
 
     <!-- main section -->
-    <div class="container p-5" id="myMain">
+    <div class="container p-5" id="myMain" data-aos="zoom-in">
 
         <div class="d-flex justify-content-center p-5">
           <div class="p-5">
@@ -61,7 +67,7 @@
     </div>
       
     <!-- about me section -->
-    <div class="container mt-5 mb-5 p-5 border" id="aboutMe">
+    <div class="container mt-5 mb-5 p-5 border" id="aboutMe" data-aos="fade-up" data-aos-duration="3000">
 
       <div class="container">
         <h1>ABOUT ME</h1> 
@@ -72,20 +78,20 @@
         <div class="row">
 
           <div class="col-lg-6 d-flex justify-content-center pb-5"> 
-              <img src="./assets/images/pau2.png" alt="image not available" class="img-fluid rounded-circle w-75">
+              <img src="./assets/images/pau.jpg" alt="image not available" class="img-fluid img-thumbnail rounded-circle w-75">
           </div>  
 
           <div class="col-lg-6 d-block justify-content-center pt-5"> 
-            <h6>I'm Benedict Paulo C. Torres but just <span>Pau</span> will do.</h6>
+            <h6>I'm Benedict <span>Pau</span>lo C. Torres.</h6>
             <h6>I'm a half introvert, half extrovert person who like to live happy and exciting life. Although I was a graduate college student of an "IT-related" course last 2014, it was only around 2016 that I realized that I want to be a web developer. My other interests aside from learning web development is to play basketball and binge-watch series or movies in Netflix.</h6>
-            <h6>My goal is to become the best web developer there is.</h6>
+            <h6>My goal is to become <span>the best web developer there is</span>.</h6>
           </div>
           
         </div>
         
       </div>
 
-      <div class="container d-flex justify-content-center">
+      <!-- <div class="container d-flex justify-content-center">
         <div class="container text-wrap">
           <h4>Educational Background</h4>
             <ul>
@@ -100,12 +106,42 @@
               <li>RareJob Philippines - Business Analyst (2017 - Present)</li>
             </ul>
         </div>
-      </div>
+      </div> -->
 
     </div>
 
+
+    <!-- background section -->
+    <div class="container my-5 p-5 border" id="eduWork" data-aos="fade-up" data-aos-duration="3000">
+      
+      <div class="container">
+        <h1>EDUCATION AND WORK</h1> 
+      </div>
+
+      <div class="container p-5 justify-content-center">
+        <div class="row">
+          <div class="col-lg-6">
+            <h4>Educational Background</h4>
+            <ul>
+              <li>University of Santo Tomas - BS Civil Engineering (2008-2010)</li>
+              <li>De La Salle - College of Saint Benilde - BS Business Administration Major in Computer Applications (2010-2014)</li>
+            </ul>
+          </div>
+
+        <div class="col-lg-6">
+          <h4>Work Experience</h4>
+          <ul>
+            <li>OLX Philippines - Product Manager (2014 - 2017)</li>
+            <li>RareJob Philippines - Business Analyst (2017 - Present)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+              
+    </div>
+
     <!-- skills section -->
-    <div class="container my-5 p-5 border" id="skillz">
+    <div class="container my-5 p-5 border" id="skillz" data-aos="fade-up" data-aos-duration="3000">
 
       <div class="container">
         <h1>SKILLS</h1> 
@@ -190,7 +226,7 @@
     </div>
 
     <!-- projects section -->
-    <div class="container my-5 p-5 border" id="myProjects">
+    <div class="container my-5 p-5 border" id="myProjects" data-aos="fade-up" data-aos-duration="3000">
       <div class="container">
         <h1>MY PROJECTS</h1>
       </div>
@@ -229,7 +265,7 @@
 
     <!-- contact form section -->
 
-    <div class="container my-5 p-5" id="contactMe">
+    <div class="container my-5 p-5" id="contactMe" data-aos="fade-up" data-aos-duration="3000">
 
         <div class="container">
           <h1>CONTACT ME</h1>
@@ -238,17 +274,17 @@
         <div class="p-5">
           <div class="form-group">
             <label for="fullname">Full Name</label>
-            <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Place Your Full Name Here">
+            <input type="text" name="fullname" id="fullname" class="form-control" placeholder="e.g. Juan Dela Cruz">
           </div>
 
           <div class="form-group">
             <label for="email">Email Address</label>
-            <input type="email" name="email" id="email" class="form-control" placeholder="Place Your Email Address Here">
+            <input type="email" name="email" id="email" class="form-control" placeholder="e.g. juandelacruz@domain.com">
           </div>
 
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea name="message" id="message" class="form-control" cols="30" rows="10"></textarea>
+            <textarea name="message" id="message" class="form-control" cols="30" rows="10" placeholder="Type Your Message Here"></textarea>
           </div>
 
           <div class="form-group d-flex justify-content-center">
@@ -259,7 +295,7 @@
     </div>
 
     <!-- footer section -->
-    <div class="container d-flex flex-column">
+    <div class="container d-flex flex-column" id="footer">
       <div class="d-flex justify-content-center">
         <div>
           <a href="https://www.linkedin.com/in/bndctpltrrs" target="_blank">
@@ -275,7 +311,7 @@
       </div>
 
       <div class="container-fluid text-center mb-3 mt-3">
-        &copy; 2021 Benedict Paulo Torres
+        <p>&copy; 2021 Benedict Paulo Torres</p>
       </div>
       
     </div>
